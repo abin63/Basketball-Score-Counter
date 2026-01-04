@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:ital,wght@0,200..800;1,200..800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <h3>HOME</h3>
+                <input type="number" id="scorecardHome" readonly> 
+                <div class="buttonGroup">
+                    <button class="incrementBtn" id="incrementOneHome">+1</button>
+                    <button class="incrementBtn" id="incrementTwoHome">+2</button>
+                    <button class="incrementBtn" id="incrementThreeHome">+3</button>
+                </div>
+            </div>
+            <div class="box">
+                <h3>GUEST</h3>
+                <input type="number" id="scorecardGuest" readonly>
+                <div class="buttonGroup">
+                    <button class="incrementBtn" id="incrementOneGuest">+1</button>
+                    <button class="incrementBtn" id="incrementTwoGuest">+2</button>
+                    <button class="incrementBtn" id="incrementThreeGuest">+3</button>
+                </div>
+            </div>
+        </div>
+        <button id="resetBtn">RESET</button>
+        <script src="index.js"></script>
+    </body>
+</html>
